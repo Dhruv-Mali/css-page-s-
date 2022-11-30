@@ -1,0 +1,101 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+}
+.navbar{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+}
+.logo-2{ 
+    padding: 0;
+    border: 3rem #fff;
+    margin-right: -13rem;
+    margin-left: -5rem;
+} 
+.logo{
+    background-color: black;
+    height: 30px;
+    margin: 25px;
+}
+.line{
+    height: 40px;
+    width: 3px;
+    background-color: #fff;
+    margin-top: 21px;
+}
+.grow-list{
+    padding: 30px;
+    margin-left:-13rem;    
+}
+.list{
+    display: flex;
+    color: #fff;
+    gap: 60px;
+}
+.list-item{
+    display: flex;
+    gap: 70px;
+}
+.list-item:nth-child(1)::after{
+    content:"\2304";
+    margin: -5px 0 0 -3.8rem;
+}
+.button-small-2{
+    margin: 22px;
+    display: flex;
+    padding-right: 90px;
+}
+.button-small{
+    /* justify-content: center; */
+    background-color: purple;
+    color: #fff;
+    border-color: purple;
+    height: 40px;
+    width: 130px;
+    border-radius: 6px;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    height: 90vh;
+    background: 100% 100%;
+    background-image: url("bg.png");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.hero-heading{
+        margin-top: -3rem;
+        text-align: center;
+        color: white;
+        font-size:70px;
+        padding: 1px 330px;
+        line-height: 70px;
+        /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+.hero-description{
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    margin-top: 20px;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+.button-large{
+    margin: 100px;
+    padding: 30px;
+    padding: 15px;
+    font-size: large;
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    align-self: center;
+    background-color: purple;
+    color: #fff;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}

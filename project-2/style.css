@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+
+.navbar-container{
+    display: flex;
+    height: 10vh;
+    width: 50px;
+    margin-top: -50px;
+}
+.navbar-container:first-child{
+    padding: 60px;
+    width: 40px;
+    gap: 120px;
+    margin-left: 100px;margin-top: 15px
+}
+.list{
+    display: flex;
+    gap: 50px;
+    padding: 15px;
+}
+.list-item{
+    display: flex;
+}
+
+.button-group{
+
+    justify-content: space-between;
+}
+.nav-button{
+   margin-left: 170px;
+    margin-top: 5px;
+    height: 50px;
+    width: 110px;
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 10px;
+}
+.banner-container{
+    /* margin-top: 100px; */
+    margin-left: 30px;
+    font-size: 50px;
+    padding: 1px 400px;
+    display: flex;
+    justify-content: flex-start;
+    /* height: 1vh; */
+    }
+.heading-text{
+    margin-right: 100px;
+    margin-left: -290px;
+    line-height:90px; 
+}
+span{
+    color:blue;
+}
+.description{
+    margin-top: 20px;
+    font-size: 24px;
+    margin-left: -300px;
+    color: rgb(85, 80, 80);
+}
+.nav-buttonbtn{
+        width: 200px;
+        height: 60px;
+        margin-left: -290px;
+        margin-top: 70px;
+        border-radius: 10px;
+        background-color: blue;
+        color: aliceblue;
+}
+.banner-container:last-child img{
+    /* background-color: #000; */
+    margin-top: -80px;
+    /* margin-left: -115px; */
+    height: 80vh;
+    width: 100vh;
+}
